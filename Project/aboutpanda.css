@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background: url(panda.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    height: 75vh;
+    width: 30%;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container h1{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.container p
+{
+    text-align: center;
+    color: white;
+}
